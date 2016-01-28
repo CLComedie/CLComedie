@@ -56,9 +56,9 @@ a:hover {
 	margin-bottom: 10px;
 }
 
-.menu .button {
+.clmenu .button {
 	display: inline-block;
-	width: 16.4%;
+	width: 100%;
 	height: 40px;
 	padding-top: 13px;
 	text-align: center;
@@ -67,12 +67,12 @@ a:hover {
 	color: black;
 }
 
-.menu .button.active {
+.clmenu .button.active {
 	background: black;
 	color: white;
 }
 
-.menu .button.twoline {
+.clmenu .button.twoline {
 	padding-top: 7px;
 }
 
