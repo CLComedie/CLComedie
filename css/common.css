@@ -15,7 +15,7 @@ a:hover {
 	position: absolute;
 	right: 0;
 }
-.share .button {
+.share a .button {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
@@ -35,7 +35,7 @@ a:hover {
 	top: -2px;
 }
 
-.share .ui.labeled.input>.label:not(.corner) {
+.share .ui.labeled.input>.label:not(.corner), .share .ui.action.input>.button {
     padding-top: .65em;
 }
 
@@ -112,28 +112,4 @@ a:hover {
 	background-image: url(../img/header-line.png);
 	background-repeat: repeat-x;
 	margin: 10px auto 10px auto;
-}
-
-.floating {
-	position: absolute;
-}
-
-.floating.tl {
-	top: 225px;
-	left: -25%;
-}
-
-.floating.ml {
-	top: 465px;
-	left: -31%;
-}
-
-.floating.tr {
-	top: 225px;
-	left: 105%;
-}
-
-.floating.mr {
-	top: 465px;
-	left: 120%;
 }
