@@ -86,7 +86,7 @@ a:hover {
 }
 
 .header .logo {
-	width: 150px;
+	width: 250px;
 	margin: auto;
 }
 
@@ -94,8 +94,8 @@ a:hover {
 	color: white;
 	text-align: center;
 	width: 100;
-	font: normal normal normal 60px/1.1em 'Fredericka the Great',fantasy;
-	margin-top: 50px;
+	font: normal normal normal 36px/1.1em 'Fredericka the Great',fantasy;
+	margin-top: 5px;
 }
 
 .content h2 {
