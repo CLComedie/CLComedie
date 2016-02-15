@@ -16,7 +16,7 @@ i.more:hover {
 article h3 {
 	font: normal normal normal 22px/1.2em 'Courier New',monospace;
 	line-height: 18px;
-	margin-top: 0px;
+	margin-top: 10px;
 }
 
 article h3 strong {
@@ -58,8 +58,6 @@ article {
 }
 
 .reserve {
-	width: 126px;
-	height: 42px;
 	background-color: black;
 	color: white;
 	cursor: pointer;
@@ -73,6 +71,10 @@ article {
 .reserve:hover {
 	background-color: white;
 	color: black;
+}
+
+div.reserve {
+	width: 126px;
 }
 
 .partenaire img {
