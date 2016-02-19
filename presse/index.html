@@ -15,8 +15,8 @@
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.7/semantic.min.js"></script>
-<style>.aloha-editable br,.aloha-editable br:after{content:"\A";white-space:pre-line;}</style></head>
-<body>
+<style>.aloha-editable br,.aloha-editable br:after{content:"\A";white-space:pre-line;}</style><script src="../module/image.zoom.js"></script></head>
+<body class="dimmable scrolling">
     <div class="ui container">
 
         <div class="intro">
@@ -60,17 +60,14 @@ C'EST QUI?
                 </div>
             </div>
             <article class="column">
-                <img alt="" src="../uploads/Presse3_small.jpg" class="ui left floated image" />
+                <img alt="" src="../uploads/Presse3_small.jpg" class="ui left floated image" onmouseover="imagezoom(this,'Sois Belle et Tais toi pas Novembre 2015','../uploads/Presse3.jpg')" />
                 <h3><br />27/11/2015<br /></h3>
-                <p>
-                    C'est la seconde des soirées "Sois belle et tais toi pas" au Rocher de Palmer à Cernon...
-                    <br />
-                    Voir l'article
-                </p>
+                <p>C'est la seconde des soirées "Sois belle et tais toi pas" au Rocher de Palmer à Cenon...<br />
+<u>Cliquez sur l'image pour lire l'article</u></p>
             </article>
             
             <article class="column">
-                <img alt="" class="ui left floated image" src="../uploads/Presse7_small.jpg" />
+                <img alt="" class="ui left floated image" src="../uploads/Presse7_small.jpg" onmouseover="imagezoom(this,'L'essentiel des spectacles 1er trimestre 2015','../uploads/Presse7.jpg')" />
                 <h3>L'ESSENTIEL DES SPECTACLES<br />
                 JAN-FEV-MARS/2015</h3>
 
@@ -152,6 +149,18 @@ C'EST QUI?
 
             <div class="sixteen wide column"><div class="line"></div>© simple-accès</div>
         </div>
-    </div>
+    </div><div class="imagezoom_overlay" style="position: absolute; z-index: 100000; cursor: pointer; text-align: center; opacity: 0.5; display: none; top: 548px; right: 352px; bottom: 521px; left: 102px; width: 250px; height: 210px; background: black;">
+	<i class="inverted huge zoom icon" style="margin-top: 77px;"></i>
+</div>
 
-</body></html>
+<style type="text/css">
+	.dimmable {
+		position: inherit !important;
+	}
+</style><div class="ui dimmer modals page transition hidden"><div class="ui basic fullscreen modal imagezoom scrolling transition hidden" onclick="$(this).modal('hide')" style="top: 237px;">
+  <i class="inverted close icon" style="color:white"></i>
+  <div class="header">Sois Belle et Tais toi pas Novembre 2015</div>
+  <div class="image content">
+      <img class="ui fluid image" src="../uploads/Presse3.jpg" style="height: 1084.13px;" />
+  </div>
+</div></div></body></html>
