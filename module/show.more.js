@@ -8,7 +8,7 @@ var showmore = function(el, forceClose) {
     if (open && content.position().top) {
         height += content.position().top
     }
-    
+
     if (open) {
         button.parent().css('height', height + (button.height() * 2));
         button.prev().css('height', height);
