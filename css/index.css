@@ -1,7 +1,7 @@
 i.more {
 	cursor: pointer;
 	font-size: 2em;
-}
+}a {    color: black}
 
 i.more:hover {
 	opacity: .8;
