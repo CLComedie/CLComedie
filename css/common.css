@@ -133,4 +133,13 @@ a:hover {
     .content h2 {
         padding: 15px 14px;
     }
+
+    .partenaire img {
+        margin-right: 10px !important;
+        height: 70px;
+    }
+
+    .partenaire i {
+        display: none;
+    }
 }

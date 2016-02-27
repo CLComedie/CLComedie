@@ -100,13 +100,4 @@ article {
         display: block;
         margin-bottom: 10px; 
     }
-
-    .partenaire img {
-        margin-right: 10px;
-        height: 70px;
-    }
-
-    .partenaire i {
-        display: none;
-    }
 }

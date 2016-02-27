@@ -102,3 +102,19 @@ form, form input {
 .column {
 	clear: both;
 }
+
+/*** MOBILE **/
+
+@media screen and (max-width: 640px) {
+
+    .ui.floated.image {
+    	float: none;
+    	margin: auto;
+    }
+
+    article h3 {
+    	margin-top: 40px;
+    	text-align: center;
+    }
+}
+
