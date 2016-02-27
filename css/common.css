@@ -1,38 +1,38 @@
 .container {
-	margin-top: 5px;
-	position: relative;
+    margin-top: 5px;
+    position: relative;
 }
 
 a:hover {
-	opacity: .8;
+    opacity: .8;
 }a {    color: black;}
 
 .intro {
-	height: 80px;
-	position: relative;
+    height: 80px;
+    position: relative;
 }
 .share {
-	position: absolute;
-	right: 0;
+    position: absolute;
+    right: 0;
 }
 .share a .button {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	background-color: black;
-	color: white;
-	font-size: 20px;
-	border-radius: 7px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 7px;
 }
 
 .share .label {
-	font: normal normal normal 13px/1.1em 'Courier New',monospace;
+    font: normal normal normal 13px/1.1em 'Courier New',monospace;
 }
 
 .share .input {
-	width: 375px;
-	height: 30px;
-	top: -2px;
+    width: 375px;
+    height: 30px;
+    top: -2px;
 }
 
 .share .ui.labeled.input>.label:not(.corner), .share .ui.action.input>.button {
@@ -40,76 +40,97 @@ a:hover {
 }
 
 .button.twitter {
-	padding: 5px;
+    padding: 5px;
 }
 
 .button.facebook {
-	padding:5px 2px;
+    padding:5px 2px;
 }
 
 .button.instagram {
-	padding: 5px 4px;
+    padding: 5px 4px;
 }
 
 .header {
-	width: 100%;
-	margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .clmenu .button {
-	display: inline-block;
-	width: 100%;
-	height: 40px;
-	padding-top: 13px;
-	text-align: center;
-	font: normal normal normal 15px/1.1em 'Courier New',monospace;
-	overflow: hidden;
-	color: black;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    padding-top: 13px;
+    text-align: center;
+    font: normal normal normal 15px/1.1em 'Courier New',monospace;
+    overflow: hidden;
+    color: black;
 }
 
 .clmenu .button.active {
-	background: black;
-	color: white;
+    background: black;
+    color: white;
 }
 
 .clmenu .button.twoline {
-	padding-top: 7px;
+    padding-top: 7px;
 }
 
 .header .header_image {
-	width: 100%;
-	height: 331px;
-	background: url(../img/cropped-fond-site.jpg);
-	background-position: center;
-	background-size: cover;
-	padding-top: 40px;
+    width: 100%;
+    height: 331px;
+    background: url(../img/cropped-fond-site.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
 }
 
 .header .logo {
-	width: 250px;
-	margin: auto;
+    width: 250px;
+    margin: auto;
 }
 
 .header h1 {
-	color: white;
-	text-align: center;
-	width: 100;
-	font: normal normal normal 36px/1.1em 'Fredericka the Great',fantasy;
-	margin-top: 5px;
+    color: white;
+    text-align: center;
+    width: 100;
+    font: normal normal normal 36px/1.1em 'Fredericka the Great',fantasy;
+    margin-top: 5px;
 }
 
 .content h2 {
-	background-color: black;
-	color: white;
-	height: 50px;
-	padding: 8px 14px;
-	font: normal normal normal 33px/1.2em 'Courier New',monospace;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 8px 14px;
+    font: normal normal normal 33px/1.2em 'Courier New',monospace;
 }
 
 .line {
-	width: 100%;
-	height: 3px;
-	background-image: url(../img/header-line.png);
-	background-repeat: repeat-x;
-	margin: 10px auto 10px auto;
+    width: 100%;
+    height: 3px;
+    background-image: url(../img/header-line.png);
+    background-repeat: repeat-x;
+    margin: 10px auto 10px auto;
+}
+
+/*** MOBILE **/
+
+@media screen and (max-width: 640px) {
+    .intro .label, .intro .input {
+        display:none;
+    }
+
+    .header .header_image {
+        height: 250px;
+        padding-top: 10px;
+    }
+
+    .content h2, .content h2 span {
+        font-size: 20px !important;
+    }
+
+    .content h2 {
+        padding: 15px 14px;
+    }
 }

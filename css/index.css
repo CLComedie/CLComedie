@@ -1,10 +1,10 @@
 i.more {
-	cursor: pointer;
-	font-size: 2em;
+    cursor: pointer;
+    font-size: 2em;
 }a {    color: black}
 
 i.more:hover {
-	opacity: .8;
+    opacity: .8;
 }
 
 .artistes i.more {
@@ -14,72 +14,99 @@ i.more:hover {
 }
 
 article h3 {
-	font: normal normal normal 22px/1.2em 'Courier New',monospace;
-	line-height: 18px;
-	margin-top: 30px !important;
+    font: normal normal normal 22px/1.2em 'Courier New',monospace;
+    line-height: 18px;
+    margin-top: 30px !important;
 }
 
 article h3 strong {
-	font-family: 'Fredericka the Great';
-	font-size: 40px;
+    font-family: 'Fredericka the Great';
+    font-size: 40px;
 }
 
 article h3 span {
-	display: inline-block;
+    display: inline-block;
 }
 
 article {
-	font-family: 'Courier New';
+    font-family: 'Courier New';
 }
 
 .presentation {
-	font-size:11px;
-	font-family: 'Courier New';
+    font-size:11px;
+    font-family: 'Courier New';
 }
 
 .date {
-	font-family: 'Fredericka the Great';
-	font-size: 19px;
-	background-color: black;
-	color: white;
-	text-align: center;
-	height: 80px;
-	width: 70px;
-	line-height: 1.3em;
-	padding-top: 17px;
+    font-family: 'Fredericka the Great';
+    font-size: 19px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 80px;
+    width: 70px;
+    line-height: 1.3em;
+    padding-top: 17px;
 }
 
 .date strong {
-	font-size: 40px;
+    font-size: 40px;
 }
 
 .date_desc {
-	font: normal normal normal 15px/1.3em 'Patrick Hand',cursive;
+    font: normal normal normal 15px/1.3em 'Patrick Hand',cursive;
 }
 
 .reserve {
-	width: 126px;
-	height: 21px;
-	background-color: black;
-	color: white;
-	cursor: pointer;
-	font-family: 'Courier New';
-	text-align: center;
+    width: 126px;
+    height: 21px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New';
+    text-align: center;
     padding-top: 2px;
     margin-top: 2px;
 }
 
 .reserve:hover {
-	background-color: white;
-	color: black;
+    background-color: white;
+    color: black;
 }
 
 .partenaire img {
-	margin-right: 40px;
+    margin-right: 40px;
 }
 
 .partenaire i.more {
     position: relative;
     margin-right: 20px;
     top: -45px;
+}
+
+/*** MOBILE **/
+
+@media screen and (max-width: 640px) {
+
+    .content .artistes img {
+        width: 140px;
+    }
+
+    .content .artistes i {
+        display: none;
+    }
+
+    .content article h3 strong {
+        display: block;
+        margin-bottom: 10px; 
+    }
+
+    .partenaire img {
+        margin-right: 10px;
+        height: 70px;
+    }
+
+    .partenaire i {
+        display: none;
+    }
 }
