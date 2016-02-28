@@ -114,11 +114,68 @@ a:hover {
     margin: 10px auto 10px auto;
 }
 
+.mobile_menu {
+    display: none;
+}
+
 /*** MOBILE **/
 
 @media screen and (max-width: 640px) {
     .intro .label, .intro .input {
         display:none;
+    }
+
+    .mobile_menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        height: 40px;
+        z-index: 100;
+        padding-top:8px;
+        box-shadow: 0px 2px 5px rgba(0,0,0,.5);
+    }
+
+    .mobile_menu span {
+        font: normal normal normal 16px/1.1em 'Courier New',monospace;
+    }
+
+    .mobile_menu i {
+        float: right;
+    }
+
+    .clmenu {
+        position: fixed;
+        left: 0;
+        top: 40px;
+        background-color: white;
+        z-index: 101;
+        box-shadow: 0px 5px 5px rgba(0,0,0,.5);
+    }
+
+    .clmenu .button {
+        height: 12px;
+        padding-top: 0px;
+        font: normal normal normal 12px/1.1em 'Courier New',monospace;
+    }
+
+    .clmenu .button.twoline {
+        padding-top: 0px;
+    }
+
+    .submenu {
+        position: inherit !important;
+    }
+
+    .submenu .button {
+        height: 16px;
+    }
+
+    .ui.stackable.grid>.column:not(.row) {
+        padding: 0.5rem !important;
     }
 
     .header .header_image {

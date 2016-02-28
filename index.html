@@ -34,6 +34,7 @@
         </div>
 
         <div class="header">
+            <div class="mobile_menu" onclick="$('.clmenu').slideToggle()"><span>MENU</span><i class="sidebar icon"></i></div>
             <div class="ui stackable seven column grid clmenu">
                 <div class="column"><a href="/CLComedie"><div class="button active">ACCUEIL</div></a></div>
                 <div class="column" onmouseover="$(this).find('.submenu').show()" onmouseout="$(this).find('.submenu').hide()">
@@ -159,5 +160,5 @@ Véritable "<i>bébé JMD Productions"</i> comme elle aime se définir elle-mê
             <div class="sixteen wide column"><div class="line"></div>© simple-accès</div>
         </div>
     </div>
-
+    <script type="text/javascript">if ($('.clmenu').css('position') === 'fixed') $('.clmenu').slideToggle(0)</script>
 </body></html>
