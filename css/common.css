@@ -166,6 +166,10 @@ a:hover {
         padding-top: 0px;
     }
 
+    .clmenu br {
+        display: none;
+    }
+
     .submenu {
         position: inherit !important;
     }
