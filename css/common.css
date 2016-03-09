@@ -204,3 +204,19 @@ a:hover {
         display: none;
     }
 }
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+   .ui.container {
+        width: 95%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    } 
+}
+
+@-moz-document url-prefix() {
+    .share .input {
+        width: 375px;
+        height: 30px;
+        top: 8px;
+    }
+}
+
