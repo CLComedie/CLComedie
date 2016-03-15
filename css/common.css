@@ -5,7 +5,8 @@
 
 a:hover {
     opacity: .8;
-}a {    color: black;}
+}
+a {    color: black;}
 
 .intro {
     height: 80px;
@@ -209,7 +210,7 @@ a:hover {
         width: 95%;
         margin-left: auto !important;
         margin-right: auto !important;
-    } 
+    }
 }
 
 @-moz-document url-prefix() {
