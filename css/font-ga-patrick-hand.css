@@ -2,11 +2,11 @@
   font-family: 'Fredericka the Great';
   font-style: normal;
   font-weight: 400;
-  src: local('Fredericka the Great'), local('FrederickatheGreat'), url(https://fonts.gstatic.com/s/frederickathegreat/v5/7Es8Lxoku-e5eOZWpxw18oRQ8DD0aAk7ES4QQYHqQcw.ttf) format('truetype');
+  src: local('Fredericka the Great'), local('FrederickatheGreat'), url(7Es8Lxoku-e5eOZWpxw18oRQ8DD0aAk7ES4QQYHqQcw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Patrick Hand';
   font-style: normal;
   font-weight: 400;
-  src: local('Patrick Hand'), local('PatrickHand-Regular'), url(https://fonts.gstatic.com/s/patrickhand/v10/9BG3JJgt_HlF3NpEUehL0InF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+  src: local('Patrick Hand'), local('PatrickHand-Regular'), url(9BG3JJgt_HlF3NpEUehL0InF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
 }

@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Facebook</title>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
     <style type="text/css">
         body {
             margin: -10px 0;
@@ -36,12 +36,12 @@
                 dom.className = 'fb-post';
                 dom.setAttribute('data-href', url);
                 dom.setAttribute('data-width', width)
-                
+
                 if (width > 750) {
                     $(parent.document).find('iframe.' + pid + nbr).css('width', width);
                 }
-                
-                container.appendChild(dom); 
+
+                container.appendChild(dom);
             };
 
             /**
@@ -68,7 +68,7 @@
                 })
                 var inter = setInterval(function() {
                     if ($('.fb-post').length === $('[fb-xfbml-state="rendered"]').length) {
-                        resize(); 
+                        resize();
                     }
                 }, 500);
             }
